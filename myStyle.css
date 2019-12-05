@@ -1,0 +1,45 @@
+body{
+    width: 1024px;
+    margin: auto;
+    background-color: silver;
+}
+
+h1 {
+    position: static;
+    color: gold;
+    background-color: black;
+}
+nav{
+    background-color: black;
+}
+p{
+    color: darkmagenta;
+    font-family: sans-serif;
+}
+h2{
+   
+    font-family: sans-serif;
+}
+li{
+    font-family: sans-serif;
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 110px;
+    
+    border-style: solid;
+    font-family: sans-serif;
+}
+aside{
+    border-style: solid;
+    background-color: blue;
+    float: right;
+}
+.menu {
+    list-style: none;
+    color: gold;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}

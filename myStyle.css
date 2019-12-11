@@ -5,9 +5,14 @@ body{
 }
 
 h1 {
-    position: static;
+    
     color: gold;
+    border: 1px solid gold;
     background-color: black;
+   box-sizing: border-box;
+   padding: 20px;
+    float: left;
+    width: 33.33%;
 }
 nav{
     background-color: black;
@@ -15,10 +20,12 @@ nav{
 p{
     color: darkmagenta;
     font-family: sans-serif;
+    background-color:darkseagreen;
 }
 h2{
    
     font-family: sans-serif;
+    background-color: crimson;
 }
 li{
     font-family: sans-serif;
@@ -37,9 +44,17 @@ aside{
     float: right;
 }
 .menu {
+    box-sizing: border-box;
     list-style: none;
     color: gold;
+    border: 1px solid gold;
+    background-color: white;
+    padding: 20px;
     float: left;
     width: 33.33%;
-    padding: 5px;
+}
+
+div{
+    float: left;
+    
 }
